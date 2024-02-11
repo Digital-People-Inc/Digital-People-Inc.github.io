@@ -2,7 +2,7 @@ import React from "react";
 import Newsletter from "./Newsletter";
 export default function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row items-center h-screen">
+    <body className="flex flex-col lg:flex-row items-center ">
       <div className="flex lg:w-2/5">
         <img src="/hero.gif" alt="hero" />
       </div>
@@ -12,9 +12,8 @@ export default function Hero() {
           👋 Hey! We're Digital People, a startup based in Palo Alto,
           California. Join our newsletter to stay updated!
         </p>
-
         <Newsletter />
       </div>
-    </div>
+    </body>
   );
 }
