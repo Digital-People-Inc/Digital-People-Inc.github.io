@@ -10,6 +10,7 @@ function App() {
     <>
       {/* <ResponsiveDebug /> */}
       <Header />
+      {/* <Mailchimp /> */}
       <Hero />
       {/* <Body /> */}
       <Footer />

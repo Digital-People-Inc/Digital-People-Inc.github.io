@@ -1,5 +1,6 @@
 import React from "react";
-import Newsletter from "./Newsletter";
+import Mailchimp from "./Mailchimp.jsx";
+
 export default function Hero() {
   return (
     <body className="flex flex-col lg:flex-row items-center ">
@@ -12,7 +13,7 @@ export default function Hero() {
           👋 Hey! We're Digital People, a startup based in Palo Alto,
           California. Join our newsletter to stay updated!
         </p>
-        <Newsletter />
+        <Mailchimp />
       </div>
     </body>
   );
